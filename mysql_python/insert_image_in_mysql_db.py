@@ -10,3 +10,5 @@ cur = conn.cursor()
 cur.execute("INSERT into DATABASE.TABLE values (1, %s)", (show_photo,))
 conn.commit()
 print('Images insert Successfully!!')
+
+#Image will store in BLOB format in DB
