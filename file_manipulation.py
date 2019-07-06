@@ -31,8 +31,8 @@ chrome_options.add_experimental_option("prefs", preferences)
 driver = webdriver.Chrome(options=chrome_options)
 
 #Pass FTP URL with Login Credentials
-driver.get("ftp://....Your FTP Path")
-d = driver.find_element_by_link_text("File_name.xlsx")
+driver.get("ftp://180.151.75.146/bi-automation/buyer-meeting/")
+d = driver.find_element_by_link_text("buyer-2019-05-30.xlsx")
 #To download FGVGE_Kocher file
 d.click()
 time.sleep(20)
