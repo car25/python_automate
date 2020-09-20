@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 
-connection = MySQLdb.connect(host='*****', user='biwork', passwd='****', db='**')
+connection = MySQLdb.connect(host='*****', user='***', passwd='****', db='**')
 cursor = connection.cursor()
 
 import pdb; pdb.set_trace()
